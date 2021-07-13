@@ -49,7 +49,7 @@ func main() {
 	)
 
 	if err != nil {
-		fmt.Println("unable to create New Relic Application", err)
+		glog.Errorf("unable to create New Relic Application", err)
 	}
 
 	if opts.Kubernetes.Config == "" {
