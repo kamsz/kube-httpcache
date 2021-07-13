@@ -7,6 +7,7 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/newrelic/go-agent/v3/newrelic"
 	"github.com/golang/glog"
 	"github.com/mittwald/kube-httpcache/cmd/kube-httpcache/internal"
 	"github.com/mittwald/kube-httpcache/pkg/controller"
